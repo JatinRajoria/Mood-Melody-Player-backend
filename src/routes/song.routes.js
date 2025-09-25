@@ -38,7 +38,7 @@ router.get('/songs',async(req,res)=>{
         mood: mood
     })
     res.status(200).json({
-        message: "Songs Created successfully",
+        message: "Songs Fetched successfully",
         songs
     })
 })
